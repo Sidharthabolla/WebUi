@@ -1,0 +1,29 @@
+.notes {
+  background-color: #FFFFFF;
+  padding: 10%;
+  border: 1px solid #c3c3c3;
+  border-radius: 0.5rem;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+  .subtitle {
+    display: flex;
+    justify-content: space-between;
+
+    .icon-div {
+      background-color: #f1f1f1;
+      border-radius: 4rem;
+      padding: 10px 10px 6px 11px;
+      margin-top: 10px;
+    }
+
+    .close {
+      align-self: center;
+
+    }
+  }
+
+  svg{
+    height: 20px;
+  }
+}

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Container from './shared/Container';
 import Notes from './shared/Notes';
 import InputBox from './shared/InputBox';
-import {callApi} from '../utils/helper'
+import {callApi} from '../utils/api'
 
 export const Form1 = () => {
   const [postData, setPostData] = useState ({

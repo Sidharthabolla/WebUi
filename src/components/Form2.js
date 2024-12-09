@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Container from './shared/Container';
 import Notes from './shared/Notes';
 import InputBox from './shared/InputBox';
-import {callApi} from '../utils/helper'
+import {callApi} from '../utils/api'
 import Checkbox from './shared/CheckBox';
 
 export const Form2 = () => {
@@ -34,7 +34,7 @@ export const Form2 = () => {
         <Container title={"Form 2"}>
           <div className="inputContainer">
             <Checkbox name={'form2CheckBox1'} inputId={1} handleData={handleData} />
-            <Checkbox name={'form2CheckBox2'} inputId={1} handleData={handleData} />
+            <Checkbox name={'form2CheckBox2'} inputId={2} handleData={handleData} />
             <InputBox name={'form2Input1'} inputId={1} handleData={handleData} />
           </div>
         </Container>

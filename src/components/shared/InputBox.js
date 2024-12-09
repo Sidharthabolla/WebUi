@@ -20,7 +20,7 @@ export const InputBox = ({name, inputId, handleData}) => {
         name={name}
         className="inputBox"
         onChange = {e => handleOnchange(e.target)}
-        placeHolder={placeHolder()}
+        placeholder={placeHolder()}
       />
     </>
   );

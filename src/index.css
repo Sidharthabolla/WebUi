@@ -57,7 +57,7 @@ button:hover {
 
 .submit-button {
   display: flex;
-  justify-self: center;
+  justify-content: center;
   margin: 50px 0;
 }
 
